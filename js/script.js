@@ -55,7 +55,7 @@ function validateForm() {
                 document.getElementById("result").style.color = 'red';
 
                 mdate.style.border = "2px solid red";
-                return false;
+                return false;background: -webkit-linear-gradient(to righbackground: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */t, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
             }
         } else {
             document.getElementById("result").innerHTML += "Day must be a number";
