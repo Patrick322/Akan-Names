@@ -5,66 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Akan Names</title>
-    <link rel="stylesheet" href="css/custom-styles.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bubbler+One&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
 </head>
 
 <body>
-    <div class="main">
-        <div id="welcome-message">
-            <h1 id="mheading">Whats your Akan name</h1>
-
-        </div>
-        <div id="welcome-story">
-            <h1>Akan!</h1>
-            <h3 id="story">
-                The Akan people of Ghana and the Ivory Coast frequently name their children after the day of the week
-                they were born and the order in which they were born. These "day names" have further meanings concerning
-                the soul and character of the person. Middle names have considerably more variety and can refer to their
-                birth order, twin status, or an ancestor's middle name.
-            </h3>
-            <!-- <button id="learn-more"
-                onclick="location.href='https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Akan_names.html'"
-                type="button">
-                Learn More</button> -->
-
-        </div>
-        <div class="date-form">
-
-            <form name="myForm" onsubmit="return aggregateFunctions()">
-
-                <label class="label" id="birthday">Your Birthday</label><br>
-                <div id="result"></div><br>
-                <label>Day</label>
-                <input type="text" id="mdate" name="mdate" value="" placeholder="01">
-                <label>Month</label>
-                <input type="text" id="mmonth" name="mmonth" value="" placeholder="12">
-                <label>Year</label>
-                <input type="text" id="myear" name="myear" value="" placeholder="2001">
-                <div id="date"></div>
-
-                <div id="the-gender" class="label">Select Gender</div>
-
-                <input type="radio" name="gender" value="male">Male
-                <input type="radio" name="gender" value="female">Female<br>
-
-
-                <input type="submit" value="SUBMIT">
-                <input type="submit" value="FIND ANOTHER" onClick="clearInput()">
-
-            </form>
-        </div>
-        <div class="imges">
-
-        </div>
-        <div class="output">
-            <div id="myAkan">
-                <h1>Waiting to process your Akan</h1>
-            </div>
-            <div id="reason"></div>
-        </div>
-
+    <div class="container">
+        <div class="jumbotron">
+         <h1>Akane name generator</h1>
+         <p>Akan names are derived from the Ghanian culture.<br>Children in Ghana are given their first name according to the day of the week they were born, based on the type of gender they are.<a href="https://en.wikipedia.org/wiki/Akan_names">learn more</a><br>Click the button below to know your Akane name:</p>
+         <ul id="l">
+         <ol>
+            <h1>Male</h1>
+    <li><strong>Sunday: </strong>Kwasi</li>
+    <li><strong>Monday:</strong> Kwadwo</li>
+    <li><strong>Tuesday: </strong>Kwabena</li>
+    <li><strong>Wednesday: </strong>Kwaku</li>
+    <li><strong>Thursday:</strong>  Yaw</li>
+    <li><strong>Friday:</strong> Kofi</li>
+    <li><strong>Saturday:</strong> Kwame</li>
+    
+      </ol>
+    </ul>
+      
+    <ul id="l" >
+      <ol>
+          <h1>Female</h1>
+          <li><strong>Sunday:</strong> Akosua</li>
+          <li><strong>Monday:</strong>Adwoa</li>
+          <li><strong>Tuesday:</strong> Abenaa</li>
+          <li><strong>Wednesday:</strong> Akua</li>
+          <li><strong>Thursday:</strong>  Yaa</li>
+          <li><strong>Friday: </strong>Afua</li>
+          <li><strong>Saturday:</strong> Ama</li>  
+      </ol>
+    </ul>
+      <a class="btn btn-danger btn-lg" onclick="myFunction()">submit</a>
+    </p>
     </div>
-
-    <script src="js/scripts.js"></script>
+    
+          </div> 
+        </div>
 </body>
 </html>
