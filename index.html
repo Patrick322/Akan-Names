@@ -9,19 +9,26 @@
 </head>
 
 <body>
-    <div class="home"> 
-        <div class="welcome-message">
-            <h1 id="main heading">What is your Akan name</h1>
+    <div class="main">
+        <div id="welcome-message">
+            <h1 id="mheading">Let's find your Akan</h1>
 
         </div>
-    </div class="Brdn-story">
-    <h1>Akan!</h1>
-    <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
-        
+        <div id="welcome-story">
+            <h1>Akan!</h1>
+            <h3 id="story">
+                The Akan people of Ghana and the Ivory Coast frequently name their children after the day of the week
+                they were born and the order in which they were born. These "day names" have further meanings concerning
+                the soul and character of the person. Middle names have considerably more variety and can refer to their
+                birth order, twin status, or an ancestor's middle name.
+            </h3>
+            <button id="learn-more"
+                onclick="location.href='https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Akan_names.html'"
+                type="button">
+                Learn More</button>
 
-    </div>
-   
-    <div class="date-form">
+        </div>
+        <div class="date-form">
 
             <form name="myForm" onsubmit="return aggregateFunctions()">
 
@@ -46,19 +53,18 @@
 
             </form>
         </div>
-
         <div class="imges">
 
-            </div>
-            <div class="output">
-                <div id="myAkan">
-                    <h1>Waiting to process your Akan</h1>
-                </div>
-                <div id="reason"></div>
-            </div>
-    
         </div>
-    
-        <script src="js/scripts.js"></script>
+        <div class="output">
+            <div id="myAkan">
+                <h1>Waiting to process your Akan</h1>
+            </div>
+            <div id="reason"></div>
+        </div>
+
+    </div>
+
+    <script src="js/scripts.js"></script>
 </body>
 </html>
