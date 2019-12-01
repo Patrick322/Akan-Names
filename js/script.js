@@ -8,29 +8,38 @@ function myFunction() {
   var dd = parseInt(prompt("Enter the date of birth"));
   var gender= prompt("your gender")
   var result=day(cc,yy,mm,dd).toFixed();
+  
   /* alert(result);  */
   var males=["Kwasi","kwadwo","Kwabena","Kwaku","Yaw", "Kofi", "Kwame"];
   var females=["Akosua","Adwoa","Abenaa","Akua", "Yaa", "Afua", "Ama"];
+  var days=["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   if (gender=="male" && result== 0){
   alert(males[0]);
+  alert(days[0]);
   }
-  else if(gender == "male" && result==1){
+  else if(gender == "male" && result==1) {
   alert(males[1]);
+  alert(days[0]);
   }
   else if(gender == "male" && result==2){
   alert(males[2]);
+  alert(days[02]);
   }
   else if(gender == "male" && result==3){
   alert(males[3]);
+  alert(days[3]);
   }
   else if(gender == "male" && result==4){
   alert(males[4]);
+  alert(days[4]);
   }
   else if(gender == "male" && result==5){
   alert(males[5]);
+  alert(days[5]);
   }
   else if(gender == "male" && result==6){
   alert(males[6]);
+  alert(days[6]);
   }
   else if(gender == "female" && result==0){
   alert(females[0]);
