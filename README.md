@@ -22,8 +22,12 @@ JAVASCRIPT
 
 ## Behaviour Driven Development(BDD)
 
-The website will require a user to  click submit and fill out information about his date of birth as follows enter century,year,month,date of birthand gender respectivly. The application calculates the the Akan name and the day as an output. 
+The website will require a user to  click submit and fill out information about his date of birth as follows enter century,year,month,date of birthand gender respectively. The application calculates the the Akan name and the day as an output. 
 
-NB : All input should be in Numbers
+NB : All input should be in Numbers except the gender
+
+## licence
+
+licenced under the(MIT licence){LICENCED}.
 
 
