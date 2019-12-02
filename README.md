@@ -16,7 +16,7 @@ This projects is all about  the naming system of the Ghanian people and it calcu
 
 
 
-##setup/installtion Requirement
+## setup/installtion Requirement
 
 Open terminal
 git clone https://github.com/Patrick322/Akan-names.git
