@@ -26,7 +26,7 @@ use code or atom .to open the clone repository on code or VScode respectively
 
 ## LIVELINK
 
-
+ https://patrick322.github.io/Akan-names/
 
 
 ## Technologies used
