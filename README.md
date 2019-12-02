@@ -14,14 +14,26 @@ Akan  names
 This projects is all about  the naming system of the Ghanian people and it calculates the birthday and gives the output as the akan name and the day.
 
 
+
+
+##setup/installtion Requirement
+
+Open terminal
+git clone https://github.com/Patrick322/Akan-names.git
+cd portfolio
+use code or atom .to open the clone repository on code or VScode respectively
+
+
 ## LIVELINK
-https://patrick322.github.io/Akan-names/
+
+
+
 
 ## Technologies used
 
-HTML 5
-CSS
-JAVASCRIPT 
+HTML 5,
+CSS,
+JAVASCRIPT, 
 
 ## Behaviour Driven Development(BDD)
 
