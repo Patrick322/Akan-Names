@@ -20,7 +20,7 @@ This projects is all about  the naming system of the Ghanian people and it calcu
 
 Open terminal
 git clone https://github.com/Patrick322/Akan-names.git
-cd portfolio
+cd Akan-names
 use code or atom .to open the clone repository on code or VScode respectively
 
 
